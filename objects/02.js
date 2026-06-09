@@ -28,3 +28,15 @@ let tinder = {
 console.log(tinder)
 console.log(Object.keys(tinder))
 console.log(Object.values(tinder))
+
+//object destructure method
+
+const course = {
+    coursename: "Javascript",
+    price: "999",
+    courseinstructor: "yash"
+}
+
+const{courseinstructor: instructor} = course
+
+console.log(instructor)
